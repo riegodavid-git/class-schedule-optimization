@@ -1,22 +1,21 @@
 # Class Schedule Optimization
 
-Solo project solving a **class-schedule assignment problem** in Python by combining three optimization paradigms on the same problem and comparing tradeoffs in solution quality, runtime, and stakeholder-weighted preference handling.
+Solo project solving a **class-schedule assignment problem** in Python by combining three optimization paradigms on the same problem — comparing tradeoffs in solution quality, runtime, and stakeholder-weighted preference handling.
 
-> Final project for **DS1324 — Prescriptive Analytics**, BS Data Science, University of Asia and the Pacific. Solo project.
+> Final project for **DS1324 — Prescriptive Analytics**, BS Data Science, University of Asia and the Pacific. Solo.
 
 ## Methods compared
 
-1. **Linear Programming (LP)** — Exact optimization with deterministic constraints.
-2. **Genetic Algorithm (GA)** — Heuristic search via DEAP / PyGAD; useful when the search space is too large or non-convex for pure LP.
-3. **Analytic Hierarchy Process (AHP)** — Multi-criteria decision making to weight competing stakeholder preferences (faculty preferences, room utilization, student conflicts) before feeding into the optimizer.
+1. **Linear Programming (LP)** — exact optimization with deterministic constraints.
+2. **Genetic Algorithm (GA)** — heuristic search via DEAP / PyGAD; useful when the search space is too large or non-convex for pure LP.
+3. **Analytic Hierarchy Process (AHP)** — multi-criteria decision making to weight competing stakeholder preferences (faculty preferences, room utilization, student conflicts) before feeding into the optimizer.
 
-The combination lets a stakeholder express *priorities* (via AHP), get an exact small-instance solution (via LP), and scale to larger / messier instances (via GA).
+## Repository layout
 
-## What's in this repo
-
-- `RIEGO_Class_Schedule_Optimization.ipynb` — main notebook with all three methods.
-- `RIEGO_Class_Schedule_Optimization_Documentation.docx` — full written documentation.
-- `Project_Outline.docx` — original project outline.
+```
+notebook/      Main project notebooks (final + earlier dated version)
+documents/     Full documentation, project outline
+```
 
 ## Stack
 
